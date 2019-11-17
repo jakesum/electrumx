@@ -653,8 +653,8 @@ class Sumcoin(Coin):
 	P2PKH_VERBYTE = bytes.fromhex("3F")
 	P2SH_VERBYTES = [bytes.fromhex("C8"), bytes.fromhex("05")]
 	WIF_BYTE = bytes.fromhex("bf")
-	GENESIS_HASH = ('3563d19f66aa85f33d1898f51bd4d387'
-					'08e776cdae1a18e0cad8332d03b9f067')
+	GENESIS_HASH = ('37d4696c5072cd012f3b7c651e5ce56a'
+					'1383577e4edacc2d289ec9b25eebfd5e')
 	DESERIALIZER = lib_tx.DeserializerSegWit
 	TX_COUNT = 387401
 	TX_COUNT_HEIGHT = 253225
